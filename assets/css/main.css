@@ -191,12 +191,12 @@ input, select, textarea {
 
 		p.major {
 			font-size: 1.25rem;
-			text-wrap: balance
+			text-wrap: balance;
 		}
 
 	h1, h2, h3, h4, h5, h6 {
 		font-variation-settings: "wdth" 70, "wght" 700;
-		line-height: 1.375;
+		line-height: 1.1;
 		letter-spacing: 0em;
 		margin: 0 0 1rem 0;
 	}
@@ -3626,7 +3626,6 @@ input, select, textarea {
 
 		.banner.style1.content-align-center {
 			text-align: center;
-			text-wrap: balance;
 		}
 
 		.banner.style1.content-align-right {
@@ -3864,7 +3863,7 @@ input, select, textarea {
 			flex-shrink: 0;
 			width: 21rem;
 			height: 21rem;
-			border-radius: 100%;
+			border-radius: 0.5rem;
 			margin: 0 3.5rem 2rem 0;
 		}
 
@@ -3880,7 +3879,7 @@ input, select, textarea {
 				display: block;
 				width: 100%;
 				height: 100%;
-				border-radius: 100%;
+				border-radius: 0.5rem;
 			}
 
 		@media screen and (max-width: 1680px) {
@@ -3995,7 +3994,6 @@ input, select, textarea {
 
 		.banner.style3.content-align-center {
 			text-align: center;
-			text-wrap: balance;
 		}
 
 		.banner.style3.content-align-right {
@@ -4249,7 +4247,6 @@ input, select, textarea {
 
 		.banner.style4.content-align-center {
 			text-align: center;
-			text-wrap: balance;
 		}
 
 		.banner.style4.content-align-right {
@@ -5012,7 +5009,6 @@ input, select, textarea {
 
 		.spotlight.style1.content-align-center {
 			text-align: center;
-			text-wrap: balance;
 		}
 
 		.spotlight.style1.content-align-right {
@@ -5074,7 +5070,7 @@ input, select, textarea {
 			flex-shrink: 0;
 			width: 25rem;
 			height: 25rem;
-			border-radius: 100%;
+			border-radius: 0.5rem;
 			margin: 0 3.5rem 2rem 0;
 		}
 
@@ -5090,7 +5086,7 @@ input, select, textarea {
 				display: block;
 				width: 100%;
 				height: 100%;
-				border-radius: 100%;
+				border-radius: 0.5rem;
 			}
 
 		@media screen and (max-width: 1680px) {
@@ -5204,7 +5200,6 @@ input, select, textarea {
 
 		.spotlight.style2.content-align-center {
 			text-align: center;
-			text-wrap: balance;
 		}
 
 		.spotlight.style2.content-align-right {
@@ -5454,7 +5449,6 @@ input, select, textarea {
 
 		.spotlight.style3.content-align-center {
 			text-align: center;
-			text-wrap: balance;
 		}
 
 		.spotlight.style3.content-align-right {
