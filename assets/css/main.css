@@ -191,6 +191,7 @@ input, select, textarea {
 
 		p.major {
 			font-size: 1.25rem;
+			text-wrap: balance
 		}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -8602,7 +8603,7 @@ input, select, textarea {
 		}
 
 		#wrapper > .color6 {
-			background-color: #64abb4;
+			background-color: #fff; #white
 		}
 
 		#wrapper > .color7 {
