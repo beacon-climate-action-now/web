@@ -161,7 +161,7 @@ input, select, textarea {
 		font-variation-settings: "wdth" 92, "wght" 400;
 		font-variation-settings: "ital" 0;
 		font-size: 1rem;
-		line-height: 1.5;
+		line-height: 1.25;
 	}
 
 	a {
@@ -185,12 +185,13 @@ input, select, textarea {
 	}
 
 	p {
-		font-variation-settings: "wdth" 92, "wght" 400;
-		margin: 0 0 1rem 0;
+		font-family: "degular-variable", sans-serif;
+		font-variation-settings: "opsz" 12, "wght" 450, "ital" 0;
+		margin: 0 0 0.75rem 0;
 	}
 
 		p.major {
-			font-size: 1.25rem;
+			font-size: 1.3rem;
 			text-wrap: balance;
 		}
 
@@ -199,6 +200,7 @@ input, select, textarea {
 		line-height: 1.1;
 		letter-spacing: 0em;
 		margin: 0 0 1rem 0;
+		text-wrap: balance;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -2248,7 +2250,7 @@ input, select, textarea {
 			input[type="button"].primary:active,
 			button.primary:active,
 			.button.primary:active {
-				background-color: #1ebdd1;
+				background-color: #a5380d;
 			}
 
 /* Form */
@@ -5248,6 +5250,7 @@ input, select, textarea {
 		.spotlight.style3 .content {
 			width: 44.5rem;
 			max-width: 100%;
+			border-bottom: solid 5px;
 		}
 
 		.spotlight.style3 .image {
@@ -6476,7 +6479,7 @@ input, select, textarea {
 				.gallery.style1 input[type="button"].primary:active,
 				.gallery.style1 button.primary:active,
 				.gallery.style1 .button.primary:active {
-					background-color: #1ebdd1;
+					background-color: #a5380d;
 				}
 
 		.gallery.style1 > .forward, .gallery.style1 > .backward {
@@ -6800,7 +6803,7 @@ input, select, textarea {
 				.gallery.style2 input[type="button"].primary:active,
 				.gallery.style2 button.primary:active,
 				.gallery.style2 .button.primary:active {
-					background-color: #1ebdd1;
+					background-color: #a5380d;
 				}
 
 		.gallery.style2 > .forward, .gallery.style2 > .backward {
@@ -8367,7 +8370,7 @@ input, select, textarea {
 					#wrapper > .invert input[type="button"].primary:active,
 					#wrapper > .invert button.primary:active,
 					#wrapper > .invert .button.primary:active {
-						background-color: #1ebdd1;
+						background-color: #a5380d;
 					}
 
 			#wrapper > .invert label {
@@ -8597,11 +8600,11 @@ input, select, textarea {
 		}
 
 		#wrapper > .color6 {
-			background-color: #fff; #white
+			background-color: #ffffff; #white
 		}
 
 		#wrapper > .color7 {
-			background-color: #6ba78c;
+			background-color: #ffd896; #light-orange-yellow
 		}
 
 		#wrapper.divided > * {
