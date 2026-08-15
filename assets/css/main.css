@@ -30,7 +30,7 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 1;
-	letter-spacing: 0.015em;
+	letter-spacing: 0em;
 }
 
 ol, ul {
@@ -177,28 +177,41 @@ input, select, textarea {
 		}
 
 	strong, b {
-		font-variation-settings: "wght" 700;
+		font-variation-settings: "wght" 650;
 	}
 
 	em, i {
 		font-variation-settings: "ital" 1;
 	}
 
+	h3 em, h3 i {
+		font-variation-settings: "wdth" 90, "wght" 625, "ital" 1;
+	}
+
 	p {
 		font-family: "degular-variable", sans-serif;
-		font-variation-settings: "opsz" 12, "wght" 450, "ital" 0;
+		font-variation-settings: "opsz" 6, "wght" 450, "ital" 0;
 		margin: 0 0 0.75rem 0;
 	}
+
+		p strong {
+			font-variation-settings: "opsz" 6, "wght" 700, "ital" 0;
+		
+		}
 
 		p.major {
 			font-size: 1.3rem;
 			text-wrap: balance;
+			font-variation-settings: "opsz" 10, "wght" 400, "ital" 0;
+		}
+
+		p.major strong {
+			font-variation-settings: "opsz" 10, "wght" 700, "ital" 0;
+		
 		}
 
 	h1, h2, h3, h4, h5, h6 {
-		font-variation-settings: "wdth" 70, "wght" 700;
 		line-height: 1.1;
-		letter-spacing: 0em;
 		margin: 0 0 1rem 0;
 		text-wrap: balance;
 	}
@@ -209,6 +222,7 @@ input, select, textarea {
 		}
 
 	h1 {
+		font-variation-settings: "wdth" 70, "wght" 700;
 		font-size: 3.5rem;
 		line-height: 1;
 		text-transform: uppercase;
@@ -231,9 +245,10 @@ input, select, textarea {
 	}
 
 	h4 {
-		font-variation-settings: "wdth" 150, "wght" 700;
+		font-variation-settings: "wdth" 160, "wght" 650;
 		font-size: 1.2rem;
 		text-transform: uppercase;
+		letter-spacing: 0.05em;
 	}
 
 	h5 {
@@ -2121,7 +2136,7 @@ input, select, textarea {
 		border: 0;
 		cursor: pointer;
 		display: inline-block;
-		font-variation-settings: "wght" 550;
+		font-variation-settings: "opsz" 10, "wght" 550, "ital" 0;
 		letter-spacing: 0.075em;
 		text-align: center;
 		text-decoration: none;
@@ -2654,6 +2669,10 @@ input, select, textarea {
 		.image img {
 			display: block;
 			border-radius: 4px;
+		}
+
+		.blur {
+		filter: blur(2px);
 		}
 
 		.image.left, .image.right {
@@ -8580,7 +8599,7 @@ input, select, textarea {
 			}
 
 		#wrapper > .color1 {
-			background-color: #f5e8dc; #beige
+			background-color: #E9DCD3; #beige - official color is f5e8dc
 		}
 
 		#wrapper > .color2 {
