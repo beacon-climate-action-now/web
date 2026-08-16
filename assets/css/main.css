@@ -206,8 +206,17 @@ input, select, textarea {
 		}
 
 		p.major strong {
-			font-variation-settings: "opsz" 10, "wght" 700, "ital" 0;
-		
+			font-variation-settings: "opsz" 10, "wght" 700, "ital" 0;		
+		}
+
+		p.essay {
+			font-size: 1.3rem;
+			font-variation-settings: "opsz" 10, "wght" 400, "ital" 0;
+			max-width: 60ch;
+		}
+
+		p.essay strong {
+			font-variation-settings: "opsz" 10, "wght" 700, "ital" 0;		
 		}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -326,6 +335,10 @@ input, select, textarea {
 	@media screen and (max-width: 736px) {
 
 		p.major {
+			font-size: 1.1rem;
+		}
+
+		p.essay {
 			font-size: 1.1rem;
 		}
 
